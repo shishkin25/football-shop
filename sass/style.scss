@@ -1,0 +1,24 @@
+@import 'base/variables';
+@import 'base/btn';
+@import 'base/theme';
+@import 'blocks/menu';
+@import 'blocks/category';
+@import 'blocks/category-list';
+@import 'blocks/modal';
+@import 'blocks/page-up';
+@import 'base/hide';
+@import 'blocks/media';
+
+* {
+    font-family: 'Ubuntu';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1390px;
+    padding: 0 35px;
+    margin: 0 auto;
+}

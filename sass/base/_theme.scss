@@ -1,0 +1,70 @@
+body {
+    .black-bg {
+        background-color: $black;
+    }
+}
+
+.white-color {
+    color: #fff;
+}
+
+.dark-theme {
+    color: #fff;
+    background-color: $black;
+}
+
+.menu {
+    &.gray-bg::after {
+        background-color: $darkGray;
+    }
+    &__item {
+        a {
+            &.white-color {
+                color: #fff;
+            }
+        }
+        &.white-bg::before {
+            background-color: #fff;
+        }
+    }
+    &__burger {
+        &.white-bg::before, &.white-bg::after, span.white-bg {
+            background-color: #fff;
+        }
+    }
+}
+
+.category {
+    &.gray-bg::after {
+        background-color: $darkGray;
+    } 
+    .good {
+        &.card-bg {
+            background-color: $darkGray;
+        }
+        &:hover.box-shadow {
+            box-shadow: 0 0 8px rgba(210, 210, 210, 0.5);
+        }
+    }
+}
+
+.category-list {
+    &__item {
+        a {
+            &.white-color {
+                color: #fff;
+            } 
+        }
+        &.white-bg::before {
+            background-color: #fff;
+        }
+    }
+}
+
+.modal {
+    &__content {
+        &.gray-bg {
+            background-color: $darkGray;
+        }
+    }
+}
